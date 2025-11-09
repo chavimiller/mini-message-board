@@ -1,1 +1,3 @@
 # mini-message-board
+
+This project is in the beginning stage, featuring a simple message board web app built with Node.js and Express. The folder structure is set up with dedicated directories for routers, controllers, views, and other modules to support clean separation of concerns and maintainability. At this stage the Express server is initialized, and the skeleton routes and view templates have been created. Next steps will include implementing routes for listing messages, rendering a form to submit new messages, handling POST requests to add messages, and storing messages (initially in-memory, then possibly persistent storage).
