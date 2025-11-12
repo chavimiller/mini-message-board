@@ -12,6 +12,7 @@ app.set("view engine", "ejs");
 app.use("/", indexRouter);
 
 const PORT = 3000;
+
 app.listen(PORT, (error) => {
   if (error) {
     throw error;
