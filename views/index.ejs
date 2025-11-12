@@ -1,7 +1,18 @@
 <html>
   <head>
-    <title>Homepage</title>
+    <title><%= title %></title>
     <link rel="stylesheet" href="/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <h1><%= title %></h1>
+
+    <ul>
+      <% messages.forEach(message => { %>
+      <li>
+        <b><%= message.user %>:</b> <%= message.text %> (<%=
+        message.added.toDateString() %>)
+      </li>
+      <% }) %>
+    </ul>
+  </body>
 </html>
