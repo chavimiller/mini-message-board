@@ -4,3 +4,104 @@ body {
     justify-content: center;
     margin: 3rem;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem 0;
+}
+
+input {
+    outline: none;
+    border: solid 1px rgb(111, 165, 227);
+    border-radius: 1rem;
+    width: 15rem;
+    height: 3rem;
+    font-family: Helvetica, sans-serif;
+    padding: 1rem;
+}
+
+button {
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    color: rgb(111, 165, 227);
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family:  Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding: .5rem;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(111, 165, 227);
+    background-color: rgb(236, 236, 236);
+    font-weight: 600;
+    font-size: 1rem;
+    width: fit-content;
+    height: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 1rem;
+}
+
+.user-text {
+    background-color: rgb(111, 165, 227);
+    max-width: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    border-radius: .6rem;
+    padding: .8rem;
+    gap: .4rem;
+    font-size: 1.2rem;
+    flex-direction: column;
+}
+
+.user-message {
+    padding: .6rem;
+    display: flex;
+    gap: .2rem;
+    align-items: center;
+    color: white;
+}
+
+.user-name {
+    color: rgb(30, 30, 30); 
+    padding: .5rem;
+    font-weight: 600;
+    align-self: flex-start;
+}
+
+.date-stamp {
+    font-size: 10px;
+    color: rgb(242, 242, 242);
+}

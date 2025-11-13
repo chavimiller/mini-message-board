@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const indexRouter = require("./routes/indexRouter");
+const newMessageRouter = require("./routes/newMessageRouter");
 
 app.use(express.urlencoded({ extended: true }));
 

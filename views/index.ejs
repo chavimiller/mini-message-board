@@ -8,11 +8,15 @@
 
     <ul>
       <% messages.forEach(message => { %>
-      <li>
-        <b><%= message.user %>:</b> <%= message.text %> (<%=
-        message.added.toDateString() %>)
+      <li class="user-message">
+        <div class="user-name"><%= message.user %></div>
+        <div class="user-text">
+          <%= message.text %>
+          <div class="date-stamp"><%= message.added.toDateString() %></div>
+        </div>
       </li>
       <% }) %>
     </ul>
+    <a href="/new">New Message</a>
   </body>
 </html>
